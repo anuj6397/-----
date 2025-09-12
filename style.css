@@ -419,7 +419,7 @@ section span {
 .project-box {
   background-color: var(--second-bg-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 15px 20px rgba(0, 0, 0, 0.1);
-  height: 48rem;
+  height: 52rem;
   width: 100%;
   position: relative;
   border-radius: 2rem;
