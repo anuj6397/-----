@@ -1,11 +1,11 @@
     // Initialize with your public key
-    emailjs.init("mjGljLqo7nXRpS1uM");
+    emailjs.init("-9VCixJV0W-4HyyzT");
 
     // Handle form submission
     document.getElementById("contact-form").addEventListener("submit", function(event) {
       event.preventDefault();
 
-      emailjs.sendForm("service_jcfo8h8", "template_gyrl138", this)
+      emailjs.sendForm("service_ppbn3xd", "template_ux26q35", this)
         .then(function() {
           alert(" Message sent successfully!");
           event.target.reset();
@@ -68,7 +68,7 @@ ScrollReveal().reveal(".form", { origin: "right" });
 
 // Typed Animation
 var typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Tech Blogger"],
+  strings: ["Full stack Developer", "Tech Blogger"],
   typeSpeed: 100,
   backSpeed: 50,
   backDelay: 1000,
